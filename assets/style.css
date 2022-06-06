@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* display: none; */
 }
 .game-start {
   display: flex;
@@ -47,9 +48,16 @@ body {
   width: 450px;
   gap: 20px;
 }
+.question-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 40px;
+}
 .question {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   text-shadow: 0.04em 0 black, 0 0.04em black, -0.04em 0 black, 0 -0.04em black;
 }
 #answer-button {
@@ -73,6 +81,27 @@ body {
 .game-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
+}
+/* endgame screen */
+.endgame-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+}
+.endgame-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #5571ec, #06bcfe);
+  padding: 30px;
+  border-radius: 30px;
+  width: 450px;
+  gap: 20px;
+}
+.submit-score-btn {
+  display: inline-table;
 }
