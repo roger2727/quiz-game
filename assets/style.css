@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
 }
 .game-start {
   display: flex;
@@ -89,7 +89,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
 }
 .endgame-results {
   display: flex;
@@ -104,4 +104,21 @@ body {
 }
 .submit-score-btn {
   display: inline-table;
+}
+.highscore-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.highscore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #5571ec, #06bcfe);
+  padding: 30px;
+  border-radius: 30px;
+  width: 450px;
+  gap: 20px;
 }
